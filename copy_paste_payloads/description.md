@@ -18,9 +18,9 @@ The record on URLAbuse is:
 
 When you open the URL, you'll see the cloudflare captcha page. However, this is actually not a cloudflare captcha but just an HTML page simulating the CF captcha:
 
-<p style="center">
+
 ![first stage CF fake captcha](./first_stage_fake_cf_captcha.png)
-</p>
+
 
 After checking the box, the following JS code is executed:
 
