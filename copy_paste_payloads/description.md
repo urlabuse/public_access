@@ -172,11 +172,15 @@ Command & Control Server
   - IP Address: 141.98.11.106
   - Hostname: srv-141-98-11-106.serveroffer.net
   - Geo: Vilnius, Lithuania
-  - Reputation: Reported 498 times (as of 24 Aug, 2025) on ![AbuseIPDB](https://www.abuseipdb.com/check/141.98.11.106) for malicious activities including SSH brute-force and WordPress scanning
+  - Reputation: Reported 498 times (as of 24 Aug, 2025) on <a href="https://www.abuseipdb.com/check/141.98.11.106">AbuseIPDB</a> for malicious activities including SSH brute-force and WordPress scanning
 
 #### Conclusion
 
 This malware campaign uses social engineering (fake CAPTCHA) to trick users into self-executing a clipboard-injected PowerShell payload.
 
 The payload installs NetSupport Manager RAT in stealth mode, connecting back to a known malicious C2 server (141.98.11.106:443).
+
+Below, You can also see the attack flow: ./mermaind_flow.svg
+
+
 
